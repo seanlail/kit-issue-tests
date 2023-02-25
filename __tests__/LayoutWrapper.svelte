@@ -1,5 +1,5 @@
 <script lang="ts">
-	import LayoutComponent from '../routes/+layout.svelte';
+	import LayoutComponent from '../src/routes/+layout.svelte';
 </script>
 
 <LayoutComponent>

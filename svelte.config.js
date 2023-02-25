@@ -17,9 +17,9 @@ const config = {
 						'../__mocks__/**/*.js',
 						'../__mocks__/**/*.ts',
 						'../__mocks__/**/*.svelte',
-						'../src/__tests__/**/*.js',
-						'../src/__tests__/**/*.ts',
-						'../src/__tests__/**/*.svelte',
+						'../__tests__/**/*.js',
+						'../__tests__/**/*.ts',
+						'../__tests__/**/*.svelte',
 						'../vitest.config.ts'
 					].filter((path) => !path.includes('../tests/'));
 				}
